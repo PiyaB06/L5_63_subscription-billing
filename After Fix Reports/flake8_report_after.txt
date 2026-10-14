@@ -1,0 +1,24 @@
+Coupon on its expiry day: 588.8199999999999
+Next billing after 2026-10-15: 2026-11-15
+Upgrade pro->team with 10 days left in Feb: 166.66666666666666
+Payment attempts (max 3, always failing): 4
+Refund for 25 days
+Refund after using 25 of 30 days: 999
+Same card, same ciphertext? False
+Webhook verified: True
+Webhook: {'event': 'paid', 'user': 'asha'}
+Invoice HTML: <h1>Invoice for &lt;b onmouseover=alert(1)&gt;ravi&lt;/b&gt;</h1><p>Total: Rs.199</p>
+Coupon: SAVE-8YL2U3
+
+
+> python -m flake8 billing_system.py --count
+0
+
+
+
+Static Summary:
+File:    billing_system.py
+Pylint:  10.00/10   (target > 9.5)
+Bandit:  High=0  Medium=0  Low=0   (target all 0)
+Flake8:  0 issues   (target 0)
+
