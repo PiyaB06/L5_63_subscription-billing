@@ -1,0 +1,33 @@
+billing_system.py:63:8: W0134: 'return' shadowed by the 'finally' clause. (return-in-finally)
+billing_system.py:63:8: W0150: return statement in finally block may swallow exception (lost-exception)
+billing_system.py:63:15: E0601: Using variable 'refund' before assignment (used-before-assignment)
+billing_system.py:66:0: C0116: Missing function or method docstring (missing-function-docstring)
+billing_system.py:66:0: C0103: Function name "couponCode" doesn't conform to snake_case naming style (invalid-name)
+billing_system.py:69:0: C0116: Missing function or method docstring (missing-function-docstring)
+billing_system.py:69:0: C0103: Function name "activeUsers" doesn't conform to snake_case naming style (invalid-name)
+billing_system.py:70:11: R1718: Consider using a set comprehension (consider-using-set-comprehension)
+billing_system.py:70:0: C0206: Consider iterating with .items() (consider-using-dict-items)
+billing_system.py:72:0: C0116: Missing function or method docstring (missing-function-docstring)
+billing_system.py:72:0: C0103: Function name "encryptCard" doesn't conform to snake_case naming style (invalid-name)
+billing_system.py:76:0: C0116: Missing function or method docstring (missing-function-docstring)
+billing_system.py:76:0: C0103: Function name "verifyWebhook" doesn't conform to snake_case naming style (invalid-name)
+billing_system.py:80:0: C0116: Missing function or method docstring (missing-function-docstring)
+billing_system.py:80:0: C0103: Function name "parseWebhook" doesn't conform to snake_case naming style (invalid-name)
+billing_system.py:81:11: I1101: Module 'lxml.etree' has no 'fromstring' member, but source is unavailable. Consider adding this module to extension-pkg-allow-list if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+billing_system.py:84:0: C0116: Missing function or method docstring (missing-function-docstring)
+billing_system.py:84:0: C0103: Function name "renderInvoice" doesn't conform to snake_case naming style (invalid-name)
+billing_system.py:86:20: W1406: The u prefix for strings is no longer necessary in Python >=3.0 (redundant-u-string-prefix)
+billing_system.py:88:0: C0116: Missing function or method docstring (missing-function-docstring)
+billing_system.py:1:0: W0611: Unused import os (unused-import)
+billing_system.py:1:0: W0611: Unused import sys (unused-import)
+
+
+
+
+
+
+Static Summary:
+File:    billing_system.py
+Pylint:  4.43/10   (target > 9.5)
+Bandit:  High=1  Medium=1  Low=3   (target all 0)
+Flake8:  36 issues   (target 0)
