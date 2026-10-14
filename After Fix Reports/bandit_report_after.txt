@@ -1,0 +1,33 @@
+[main]  INFO    cli exclude tests: None
+[main]  INFO    running on Python 3.13.7
+Run started:2026-10-14 06:54:15.626885+00:00
+
+Test results:
+        No issues identified.
+
+Code scanned:
+        Total lines of code: 101
+        Total lines skipped (#nosec): 0
+
+Run metrics:
+        Total issues (by severity):
+                Undefined: 0
+                Low: 0
+                Medium: 0
+                High: 0
+        Total issues (by confidence):
+                Undefined: 0
+                Low: 0
+                Medium: 0
+                High: 0
+Files skipped (0):
+
+
+
+
+
+Static Summary:
+File:    billing_system.py
+Pylint:  5.26/10   (target > 9.5)
+Bandit:  High=0  Medium=0  Low=0   (target all 0)
+Flake8:  35 issues   (target 0)
